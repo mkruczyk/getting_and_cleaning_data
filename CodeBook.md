@@ -65,6 +65,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 ##Selection of features
 
 From the original data set the variables mean\(\) and std\(\) variables were selected leaving 66 variables. The variable names where transformed to long format:
+
 1. Statistic \- two types of statistics are coded in the variable name:
 	* Mean of
 	* Standard deviation of
@@ -89,6 +90,7 @@ From the original data set the variables mean\(\) and std\(\) variables were sel
 There were two variables added:
 1. Subject \- identifies the subject of the research and takes values between 1 and 30
 2. Activity \- describes activity of the subject at the measurement moment in time. It takes 6 values:
+
 	* LAYING 
 	* SITTING 
 	* STANDING 

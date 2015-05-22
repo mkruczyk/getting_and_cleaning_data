@@ -4,12 +4,13 @@
 The product of this section is one dataset containing all raw measurement variables, subject variable, activity variable and all observations from train and test subsets. This section is split into three subsections:
 ###Reading data into R
 Using *read.table* funcion data is loaded into R. The data is loaded into six variables:
-      *trainX \- stores all original variables from the measurements from train dataset
-      *trainY \- stores all activities (labels) from train dataset
-      *trainS \- stores all subject ids from train dataset
-      *testX \- stores all original variables from the measurements from test dataset
-      *testY \- stores all activities (labels) from test dataset
-      *testS \- stores all subject ids from test dataset      
+
+      * trainX \- stores all original variables from the measurements from train dataset
+      * trainY \- stores all activities (labels) from train dataset
+      * trainS \- stores all subject ids from train dataset
+      * testX \- stores all original variables from the measurements from test dataset
+      * testY \- stores all activities (labels) from test dataset
+      * testS \- stores all subject ids from test dataset      
 
 ###Merging data by column
 Using *cbind* function subject and activity columns are added to the measurement dataset. The function is used for train set and test set separately. The results are stored in *train* and *test* variables respectively.
