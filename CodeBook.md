@@ -91,12 +91,12 @@ There were two variables added:
 1. Subject \- identifies the subject of the research and takes values between 1 and 30
 2. Activity \- describes activity of the subject at the measurement moment in time. It takes 6 values:
 
-	* LAYING 
-	* SITTING 
-	* STANDING 
-	* WALKING 
-	* WALKING_DOWNSTAIRS 
-	* WALKING_UPSTAIRS
+* LAYING 
+* SITTING 
+* STANDING 
+* WALKING 
+* WALKING_DOWNSTAIRS 
+* WALKING_UPSTAIRS
 
 ##Data transformations
 For each of the variables mean value per subject and per activity was calculated. Therefore combination of Subject and Activity values identifies the row unambiguously.
