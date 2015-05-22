@@ -1,6 +1,6 @@
 ### MERGING TRAIN AND TEST DATASETS ###
 #Set working directory
-setwd("./Data_cleaning/UCI HAR Dataset")
+setwd("./UCI HAR Dataset")
 
 #Reading data to R
 trainX <- read.table("./train/X_train.txt")
